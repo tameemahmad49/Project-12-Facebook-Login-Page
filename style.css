@@ -1,0 +1,834 @@
+img {
+    max-width: 100%;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+ol,
+ul,
+li,
+figcaption,
+textarea,
+input {
+    font-family: arial;
+}
+
+body {
+    font-family: helvetica, arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mywidth {
+    max-width: 1200px;
+}
+
+/* header css */
+
+.headerSection {
+    background: #3a5795;
+    padding: 10px 0;
+}
+
+.allHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftHead {}
+
+.leftHead img {}
+
+.rightHead {
+    display: flex;
+    align-items: center;
+}
+
+.emailHead {}
+
+.emailHead p {
+    color: white;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+.emailHead input {}
+
+.emailHead span {
+    color: #ffffff96;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.emailHead span input {
+    margin-right: 2px;
+}
+
+.passwordHead {}
+
+.passwordHead p {
+    color: white;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+.passwordHead input {}
+
+.passwordHead a {
+    color: #ffffff96;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.btnHead {}
+
+.btnHead a {
+    font-size: 12px;
+    font-weight: bold;
+    background: #0257d5;
+    text-decoration: none !important;
+    padding: 1px 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.rightHead div {
+    margin-left: 20px;
+}
+
+/* body css left side's */
+
+.bodySection {
+    background: #edf0f5;
+}
+
+.allBody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftBody {}
+
+.leftBody h2 {
+    width: 470px;
+    font-weight: bold;
+    font-family: "Freight Sans Bold", "Helvetica Neue", "Segoe UI", helvetica, arial, sans-serif !important;
+    margin-top: 95px;
+    display: inline-block;
+    margin-bottom: 52px;
+    font-size: 29px;
+    color: #333333;
+}
+
+.txtLftBody {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.txtLftBody img {
+    width: 55px;
+}
+
+.txtLftBody p {
+    margin: 0;
+    margin-left: 18px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.txtLftBody span {
+    margin-left: 18px;
+    color: #0000009c;
+    font-size: 14px;
+}
+
+/* right side's css */
+
+.rightBody {
+}
+
+.rightBody h2 {
+    font-weight: bold;
+    font-family: "Freight Sans Bold", "Helvetica Neue", "Segoe UI", helvetica, arial, sans-serif !important;
+    margin-top: 59px;
+    display: inline-block;
+    margin-bottom: 12px;
+    font-size: 35px;
+    color: #333333;
+}
+
+.rightBody h4 {
+    font-size: 20px;
+    color: #0000008c;
+}
+
+.rightBody form {}
+
+.rightBody form ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rightBody form ul li {
+    padding: 6px 0;
+    display: flex;
+}
+
+.rightBody form ul input {
+    padding: 7px;
+    width: 100%;
+    margin-right: 14px;
+    border: 1px solid #0000004d;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.rightBody form p {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.brthdyFormDiv {}
+
+.brthdyFormDiv select {
+    width: 69px;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #0000004d;
+    margin-right: -2px;
+}
+
+.brthdyFormDiv a {
+    font-size: 14px;
+    margin-left: 20px;
+    color: #3a5795;
+}
+
+.genderRadio {
+    padding-top: 9px;
+}
+
+.genderRadio input {}
+
+.genderRadio label {
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+.textFormBtm {}
+
+.textFormBtm p {
+    font-size: 11px !important;
+    width: 410px;
+    margin: 22px 0;
+    color: #00000073;
+}
+
+.textFormBtm p a {
+    color: #3a5795;
+}
+
+.siupBtn {}
+
+.siupBtn button {
+    background: linear-gradient(#53b553, #0a710a);
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.siupBtn button:hover {
+    background: linear-gradient(#7ebb7e, #0a710a);
+}
+
+.formLastfullBottom {}
+
+.formLastfullBottom hr {}
+
+.formLastfullBottom p {
+    font-size: 15px !important;
+    width: 410px;
+    margin: 24px 0;
+    color: #000000a6;
+    padding-bottom: 14px;
+}
+
+.formLastfullBottom p a {
+    color: #3a5795;
+}
+
+/* footer css */
+
+.footerSection {}
+
+.allFooter {}
+
+.firstFooter {}
+
+.firstFooter a {
+    font-size: 13px;
+    margin-right: 10px;
+    color: #3a5795;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.firstFooter a span {
+    background: #edf0f5;
+    padding: 0px 6px;
+}
+
+.ntdec {
+    text-decoration: none !important;
+}
+
+.firstFooter hr {
+    margin: 0;
+}
+
+.middleFooter {
+    padding-top: 7px;
+}
+
+.middleFooter a {
+    font-size: 13px;
+    width: 103px;
+    color: #3a5795;
+    display: inline-block;
+}
+
+.middleFooter a img {
+    width: 14px;
+}
+
+.lastFooer {
+    padding-top: 25px;
+}
+
+.lastFooer p {
+    font-size: 12px;
+    color: #00000094;
+    margin: 0;
+}
+
+.lastFooer a {
+    font-size: 14px;
+    display: block;
+    color: #3a5795;
+    margin-top: -3px;
+    margin-bottom: 20px;
+}
+
+.firstFooter a span:hover {
+    background: #3a5795a3;
+    color: white;
+}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
